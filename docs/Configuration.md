@@ -23,7 +23,9 @@
 >6. Click OK
 
 4.  Testing
-
+ 
+    Create a new file and type in the codes.
+    
     import pycom    
 import time    
 pycom.heartbeat(False)   
