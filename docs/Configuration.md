@@ -24,7 +24,7 @@
 
 4.  Testing
 
-  `import pycom
+   `import pycom
     import time
     pycom.heartbeat(False)
     for cycles in range(10): # stop after 10 cycles
