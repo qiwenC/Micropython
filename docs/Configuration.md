@@ -22,4 +22,15 @@
 >5. For device, type down 192.168.4.1. The default username and password are micro and python, respectively.
 >6. Click OK
 
-4.  
+4.  Testing
+
+  `import pycom
+    import time
+    pycom.heartbeat(False)
+    for cycles in range(10): # stop after 10 cycles
+    pycom.rgbled(0x007f00) # green
+    time.sleep(5)
+    pycom.rgbled(0x7f7f00) # yellow
+    time.sleep(1.5)
+    pycom.rgbled(0x7f0000) # red
+    time.sleep(4) `
